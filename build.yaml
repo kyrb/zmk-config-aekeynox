@@ -113,6 +113,14 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: *cmake-args
 
+  # Preonic
+  - board: preonic//zmk
+    artifact-name: preonic
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    config:
+      variant: all1u
+
   ###
   # Standalone Keyboards (onboard MCU)
   ##
