@@ -83,8 +83,10 @@
 #define SC_UACU &digraph SQT RS(U) // Ú
 #define  C_YACU &digraph SQT Y     // ý
 #define SC_YACU &digraph SQT RS(Y) // Ý
-#define  C_CCDL &digraph SQT C     // ç
-#define SC_CCDL &digraph SQT RS(C) // ç
+
+// cedilla
+#define  C_CCDL &kp RA(COMMA)     // ç
+#define SC_CCDL &kp LS(RA(COMMA)) // Ç
 
 // grave accent
 #define  C_AGRV &digraph GRAVE A     // à
