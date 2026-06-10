@@ -20,7 +20,7 @@
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
 // #define KB_LAYOUT_QWERTY_EE         // Estonia
 // #define KB_LAYOUT_QWERTY_ES         // Spain
-// #define KB_LAYOUT_QWERTY_INTL       // US (International)
+#define KB_LAYOUT_QWERTY_INTL       // US (International)
 // #define KB_LAYOUT_QWERTY_IT         // Italy
 // #define KB_LAYOUT_QWERTY_LAFAYETTE  // France
 // #define KB_LAYOUT_QWERTY_LATAM      // Latin America
@@ -65,6 +65,7 @@
 // #define KB_EXTRA_LAYERS_NORDIC    // default for DK, FI, NO, SE
 // #define KB_EXTRA_LAYERS_NONE      // no 1dk layers, use outer cols
 
+#define KB_EXTRA_LAYERS_AUTO      // default (recommended)
 
 /******************************************************************************
  * Layout Emulation
