@@ -117,7 +117,7 @@ include:
   - board: preonic//zmk
     artifact-name: preonic
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: *cmake-args
     config:
       variant: all1u
 
@@ -139,12 +139,6 @@ include:
     # Planck rev6 (STM32F303)
   - board: planck//zmk
     artifact-name: planck
-    snippet: studio-rpc-usb-uart
-    cmake-args: *cmake-args
-
-    # Preonic rev3 (STM32F303)
-  - board: preonic//zmk
-    artifact-name: preonic
     snippet: studio-rpc-usb-uart
     cmake-args: *cmake-args
 
